@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class Footerwomencategories {
 	// Se implemento solo un escenario de prueba.
 	@Test
-	void LoginTest(){
+	public void LoginTest() throws InterruptedException{
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");

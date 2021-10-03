@@ -14,7 +14,6 @@ public class Footerwomencategories {
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize(); // Maximize Windows
-
 		// Click on the footer categories Women
 		driver.findElement(By.xpath("//li[contains(@class,'last')]//a[contains(@title,'')][normalize-space()='Women']")).click();
 
